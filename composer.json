@@ -1,0 +1,27 @@
+{
+  "name": "edgetelemetrics/graph",
+  "description": "Graph model for PHP",
+  "keywords": ["graph", "edge", "vertex"],
+  "license": "MIT",
+  "authors": [ { "name": "James Lucas", "email": "james@lucas.net.au" } ],
+  "type": "library",
+  "require": {
+    "php": "^7.4||^8.0"
+  },
+  "suggest": {
+    "ext-zend-opcache": "*"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "EdgeTelemetrics\\Graph\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "EdgeTelemetrics\\Graph\\tests\\": "tests/"
+    }
+  }
+}
